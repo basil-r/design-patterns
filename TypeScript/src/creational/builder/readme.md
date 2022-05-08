@@ -1,0 +1,1 @@
+### The Builder pattern encapsulates the construction of a product and allows it to be divided into stages.

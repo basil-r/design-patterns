@@ -1,0 +1,3 @@
+interface Pepperoni {}
+
+export { Pepperoni };

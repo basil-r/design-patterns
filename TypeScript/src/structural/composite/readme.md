@@ -1,0 +1,3 @@
+### The Composite pattern combines objects into tree structures to represent part / whole hierarchies. The linker allows the client to perform homogeneous operations on individual objects and their collections.
+Client performs homogeneous operations on objects and collections
+#### Composite is a structural design pattern that allows composing objects into a tree-like structure and work with the it as if it was a singular object.

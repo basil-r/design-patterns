@@ -1,0 +1,4 @@
+### Use the Flyweight pattern if one instance of a class can provide many "virtual instances".
+#### Flyweight is a structural design pattern that lets you fit more objects into the available amount of RAM by sharing common parts of state between multiple objects instead of keeping all of the data in each object.
+The immutable data of an object is commonly referred to as the "internal state". All other data is "external state".
+The lightweight pattern suggests not storing external state in a class, but passing it to certain methods through parameters. Thus, the same objects can be reused in different contexts.

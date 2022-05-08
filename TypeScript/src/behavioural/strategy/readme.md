@@ -1,0 +1,2 @@
+### The Strategy pattern defines a family of algorithms, encapsulates each of them, and makes them interchangeable. It allows algorithms to be modified regardless of their client-side usage.
+Encapsulates interchangeable behaviors and chooses one through delegation.

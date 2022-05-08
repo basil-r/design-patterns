@@ -1,0 +1,3 @@
+interface Clams {}
+
+export { Clams };

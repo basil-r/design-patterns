@@ -1,0 +1,3 @@
+### The Iterator pattern provides a mechanism to iterate through the elements of a collection without exposing its internal representation.
+Provides a mechanism to iterate over collections of objects without exposing the implementation.
+#### Iterator is a behavioral design pattern that lets you traverse elements of a collection without exposing its underlying representation (list, stack, tree, etc.).

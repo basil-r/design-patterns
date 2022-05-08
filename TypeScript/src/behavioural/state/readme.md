@@ -1,0 +1,3 @@
+### The State pattern controls the change in the behavior of an object when its internal state changes. Outwardly, it looks like the object is changing its class.
+Encapsulates stateful behavior by delegating the behavior to the current state object.
+#### State is a behavioral design pattern that lets an object alter its behavior when its internal state changes. It appears as if the object changed its class.

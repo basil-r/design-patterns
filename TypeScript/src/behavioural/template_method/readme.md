@@ -1,0 +1,2 @@
+### The Template Method pattern defines the "skeleton" of the algorithm in the method, leaving the definition of the implementation of some steps to subclasses. Subclasses can override some parts of the algorithm without changing its structure.
+Subclasses decide how to implement steps in the algorithm.

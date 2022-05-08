@@ -1,0 +1,2 @@
+### The Prototype pattern is used when creating an instance of a class is resource intensive or time consuming.
+#### Prototype is a pattern that lets you copy existing objects without making your code dependent on their classes.

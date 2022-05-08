@@ -1,0 +1,3 @@
+### The Factory Method pattern defines the interface for creating an object, but allows subclasses to choose the class of the instantiated instance. Thus, the Factory Method delegates the instantiation operation to the subclasses.
+Subclasses decide which specific classes should to be created.
+#### Factory Method is a pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.

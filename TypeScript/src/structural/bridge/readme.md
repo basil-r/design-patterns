@@ -1,0 +1,2 @@
+### Use the Bridge pattern if not only the implementation can change, but also the abstractions.
+#### Bridge is a structural design pattern that lets you split a large class or a set of closely related classes into two separate hierarchies—abstraction and implementation—which can be developed independently of each other.

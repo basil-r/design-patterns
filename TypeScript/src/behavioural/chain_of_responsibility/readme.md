@@ -1,0 +1,4 @@
+### The Chain of Responsibility pattern is used when you want to give multiple objects the ability to process a request.
+#### Chain of Responsibility is a behavioral design pattern that lets you pass requests along a chain of handlers. Upon receiving a request, each handler decides either to process the request or to pass it to the next handler in the chain.
+#### Chain of Responsibility is behavioral design pattern that allows passing request along the chain of potential handlers until one of them handles request.
+The pattern allows multiple objects to handle the request without coupling sender class to the concrete classes of the receivers. 
