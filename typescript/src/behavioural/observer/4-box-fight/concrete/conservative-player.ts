@@ -1,22 +1,22 @@
-import { BoxFight } from "./BoxFight";
-import { IObserver } from "./IObserver";
-import { ISubject } from "./ISubject";
+import { BoxFight } from "./box-fight";
+import { Observer } from "../abstract/observer";
+import { Subject } from "../abstract/subject";
 
-class ConservativePlayer implements IObserver {
+class ConservativePlayer implements Observer {
   private _boxerToPutMoneyOn!: string;
 
-  get BoxerToPutMoneyOn(): string {
+  get boxerToPutMoneyOn(): string {
     return this._boxerToPutMoneyOn;
   }
 
-  set BoxerToPutMoneyOn(value: string) {
+  set boxerToPutMoneyOn(value: string) {
     this._boxerToPutMoneyOn = value;
   }
 
-  Update(subject: ISubject): void {
+  update(subject: Subject): void {
     const boxFight = subject as BoxFight;
 
-    if (boxFight.BoxerAScore < boxFight.BoxerBScore) {
+    if (boxFight.boxerAScore < boxFight.boxerBScore) {
       this._boxerToPutMoneyOn = "I put on boxer B, better be safe!";
     } else {
       this._boxerToPutMoneyOn = "I put on boxer A, better be safe!";

@@ -1,4 +1,4 @@
-import { Subject } from "./Subject";
+import { Subject } from "./subject";
 
 interface Observer {
   update(subject: Subject): void;

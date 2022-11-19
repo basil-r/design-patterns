@@ -1,13 +1,13 @@
-import { ConcreteObserverA } from "./concrete/ConcreteObserverA";
-import { ConcreteObserverB } from "./concrete/ConcreteObserverB";
-import { ConcreteSubject } from "./concrete/ConcreteSubject";
+import { ConcreteObserverA } from "./concrete/concrete-observer-a";
+import { ConcreteObserverB } from "./concrete/concrete-observer-b";
+import { ConcreteSubject } from "./concrete/concrete-subject";
 
 const subject = new ConcreteSubject();
 
 const observer1 = new ConcreteObserverA();
-subject.attach(observer1);
-
 const observer2 = new ConcreteObserverB();
+
+subject.attach(observer1);
 subject.attach(observer2);
 
 subject.someBusinessLogic();

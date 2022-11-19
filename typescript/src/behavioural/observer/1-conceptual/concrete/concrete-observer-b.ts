@@ -1,6 +1,6 @@
-import { Observer } from "../abstract/Observer";
-import { Subject } from "../abstract/Subject";
-import { ConcreteSubject } from "./ConcreteSubject";
+import { Observer } from "../abstract/observer";
+import { Subject } from "../abstract/subject";
+import { ConcreteSubject } from "./concrete-subject";
 
 class ConcreteObserverB implements Observer {
   public update(subject: Subject): void {
